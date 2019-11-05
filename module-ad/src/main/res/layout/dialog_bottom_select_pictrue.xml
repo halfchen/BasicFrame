@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e1e1e1" />
+
+    <TextView
+        android:id="@+id/tv_select_pictrue_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size_15"
+        android:text="相册"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/size_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e1e1e1" />
+
+    <TextView
+        android:id="@+id/tv_select_pictrue_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size_15"
+        android:text="相机"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/size_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e1e1e1" />
+
+    <TextView
+        android:id="@+id/tv_select_pictrue_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size_15"
+        android:text="取消"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/size_16" />
+
+</LinearLayout>

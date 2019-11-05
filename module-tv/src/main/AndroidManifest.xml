@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chen.tv">
+
+    <application>
+
+        <activity
+            android:name=".TvPlayActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/ThemeSplash"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

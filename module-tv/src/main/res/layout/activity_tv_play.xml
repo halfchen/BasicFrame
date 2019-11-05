@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.chen.base.ijkplayer.IjkVideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:background="@mipmap/title_bg">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/size_12"
+                android:paddingRight="@dimen/size_12"
+                android:src="@drawable/nav_back_white_24dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/back"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16"
+                tools:text="标题" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:layout_width="@dimen/size_45"
+                android:layout_height="@dimen/size_45"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/jz_loading" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pb_loading"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30"
+                android:text="节目加载中..."
+                android:textColor="@color/text_9"
+                android:textSize="@dimen/size_12" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

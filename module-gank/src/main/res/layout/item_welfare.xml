@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/size_3"
+    tools:ignore="ResourceName">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_f4_radius5_shape">
+
+        <ImageView
+            android:layout_width="@dimen/size_69"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/size_15"
+            android:src="@mipmap/icon_logo" />
+    </RelativeLayout>
+
+    <com.chen.base.widget.FitImageView
+        android:id="@+id/ivWelfare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:riv_corner_radius="@dimen/size_5" />
+</FrameLayout>

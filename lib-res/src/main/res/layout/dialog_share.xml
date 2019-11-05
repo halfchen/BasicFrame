@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/music_list_shape"
+    android:orientation="horizontal"
+    android:padding="@dimen/size_30">
+
+    <TextView
+        android:id="@+id/wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/icon_wechat"
+        android:drawablePadding="@dimen/size_10"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_20"
+        android:paddingBottom="@dimen/size_20"
+        android:text="微信好友"
+        android:textColor="@color/text_3"
+        android:textSize="@dimen/size_14" />
+
+    <TextView
+        android:id="@+id/moments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/icon_moments"
+        android:drawablePadding="@dimen/size_10"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_20"
+        android:paddingBottom="@dimen/size_20"
+        android:text="朋友圈"
+        android:textColor="@color/text_3"
+        android:textSize="@dimen/size_14" />
+
+    <TextView
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_download"
+        android:drawablePadding="@dimen/size_10"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_20"
+        android:paddingBottom="@dimen/size_20"
+        android:text="下载"
+        android:textColor="@color/text_3"
+        android:textSize="@dimen/size_14" />
+</LinearLayout>

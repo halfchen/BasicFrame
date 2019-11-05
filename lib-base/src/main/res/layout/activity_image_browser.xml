@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <RelativeLayout
+            android:id="@+id/rl_black_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <com.chen.base.widget.photoview.MNGestureView
+            android:id="@+id/mnGestureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPagerBrowser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.chen.base.widget.photoview.MNGestureView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/size_20"
+            android:padding="@dimen/size_10">
+
+            <TextView
+                android:id="@+id/tvNumShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_skip"
+                android:paddingLeft="@dimen/size_20"
+                android:paddingTop="@dimen/size_3"
+                android:paddingRight="@dimen/size_20"
+                android:paddingBottom="@dimen/size_3"
+                android:text="0/0"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/size_16" />
+
+            <TextView
+                android:id="@+id/tvSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/size_20"
+                android:background="@drawable/ic_save_shape"
+                android:paddingLeft="@dimen/size_20"
+                android:paddingTop="@dimen/size_3"
+                android:paddingRight="@dimen/size_20"
+                android:paddingBottom="@dimen/size_3"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+        </FrameLayout>
+    </RelativeLayout>
+</layout>

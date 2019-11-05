@@ -1,0 +1,2 @@
+include ':app', ':lib-base', ':lib-res', ':module-main', ':module-ad', ':module-music', ':module-user', ':module-eye', ':http', ':module-tv', ':module-gank'
+rootProject.name='BasicFrame'

@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            if (isBuildModule.toBoolean()) {
+            } else {
+                resources {
+                    //正式版本时，排除debug文件夹下所有调试文件
+                    exclude 'src/debug/*'
+                }
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api rootProject.ext.supportx["lifecycle"]
+    api rootProject.ext.supportx["recyclerview"]
+    //公用资源在base中依赖
+    api project(':lib-res')
+    api project(':http')
+    //阿里路由框架
+    api rootProject.ext.dependencies["arouter-api"]
+    //权限管理
+    api rootProject.ext.dependencies["rxpermissions"]
+    //Glide
+    api rootProject.ext.dependencies["glide-api"]
+    //高斯模糊
+    api rootProject.ext.dependencies["transformations"]
+    //视频播放器
+    api rootProject.ext.dependencies["gsyvideoplayer"]
+    //方法数大于65536
+    api rootProject.ext.dependencies["multidex"]
+    //photoview
+    api rootProject.ext.dependencies["photoview"]
+
+    api('com.github.florent37:glidepalette:2.1.2') {
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.github.bumptech.glide', module: 'glide'
+    }
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+    testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#024355</color>
+    <color name="colorPrimaryDark">#003957</color>
+    <color name="colorAccent">#7A0430</color>
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="transparentColor">#0000</color>
+    <color name="gray_trance">#c2b3b3b3</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#FFCDCA</color>
+
+    <color name="gray">#888888</color>
+    <color name="green">#0b988f</color>
+    <color name="red">#e9240a</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="bg_gray">#ff747674</color>
+    <color name="bg_f4">#f4f4f4</color>
+    <color name="bg_e2">#e2e2e2</color>
+    <color name="text_0">#000000</color>
+    <color name="text_3">#333333</color>
+    <color name="text_4">#444444</color>
+    <color name="text_5">#555555</color>
+    <color name="text_6">#666666</color>
+    <color name="text_9">#999999</color>
+    <color name="text_b">#bbbbbb</color>
+    <color name="text_blue">#2196F3</color>
+
+    <color name="tv_01">#7189bf</color>
+    <color name="tv_02">#df7599</color>
+    <color name="tv_03">#72d6c9</color>
+    <color name="tv_04">#c36a2d</color>
+    <color name="tv_05">#525252</color>
+    <color name="tv_06">#484c7f</color>
+    <color name="tv_07">#1A6436</color>
+
+    <color name="musicplay_bg">#c6000000</color>
+
+    <color name="alivc_white">#e7e7e7</color>
+    <color name="alivc_blue">#379DF2</color>
+    <color name="alivc_green">#57AB44</color>
+    <color name="alivc_orange">#EE7C33</color>
+    <color name="alivc_red">#E94033</color>
+
+    <color name="alivc_black_alpha_eight">#CC000000</color>
+    <color name="alivc_333">#333</color>
+    <color name="alivc_line_gray">#D7D8D9</color>
+    <color name="alivc_text_confirm">#00C1DE</color>
+    <color name="alivc_text_cancel">#666</color>
+
+    <color name="alivc_info_text_duration">#9f9e9e</color>
+    <color name="alivc_dialog_error_bg">#b2000000</color>
+    <color name="alivc_dialog_gesture_bg">#66ffffff</color>
+    <color name="alivc_gesture_text_color">#333333</color>
+
+    <color name="alivc_color_rate_item">#4c000000</color>
+
+    <color name="alivc_color_player_setting_background">#1e222d</color>
+    <color name="alivc_color_player_tab_selected">#00FFFF</color>
+    <color name="alivc_color_player_tab_defaut">#D8D8D8</color>
+
+    <color name="alivc_color_player_background">#1e222d</color>
+    <color name="alivc_color_player_colorPrimary">#00FFFF</color>
+    <color name="alivc_color_player_colorAccent">#00c1de</color>
+    <color name="alivc_color_player_clear_logs">#373d41</color>
+    <color name="alivc_color_player_manager_background">#373d41</color>
+    <color name="alivc_color_player_setting">#373d41</color>
+
+    <color name="colorPrimary_alpha_five">#1affffff</color>
+    <color name="colorPrimary_alpha_ten">#0cffffff</color>
+    <color name="colorPrimary_alpha_fifteen">#26ffffff</color>
+
+    <color name="add_download_info_background">#373d41</color>
+    <color name="delete_download_info_background">#373d41</color>
+    <color name="alivc_color_player_list_item_press">#2d3342</color>
+
+    <color name="alivc_color_action_list_dialog_background">#1e2321</color>
+    <color name="alivc_color_gray">#D8D8D8</color>
+    <color name="alivc_dialog_bg_translucent">#E6373d41</color>
+    <color name="alivc_barrage_switch_background">#80D8D8D8</color>
+
+    <!--透明色-->
+    <color name="colorTransparent">#00000000</color>
+</resources>

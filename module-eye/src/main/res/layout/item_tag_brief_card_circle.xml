@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/size_15"
+    android:paddingTop="@dimen/size_10"
+    android:paddingRight="@dimen/size_15"
+    android:paddingBottom="@dimen/size_10"
+    tools:ignore="ResourceName">
+
+    <FrameLayout
+        android:layout_width="@dimen/size_47"
+        android:layout_height="@dimen/size_47">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_f4_radius50_shape">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/size_5"
+                android:src="@mipmap/icon_logo" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/size_47"
+            android:layout_height="@dimen/size_47"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/size_10"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_0"
+            android:textSize="@dimen/size_15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_6"
+            android:textSize="@dimen/size_12" />
+    </LinearLayout>
+</LinearLayout>

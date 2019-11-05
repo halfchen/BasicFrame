@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_advertising"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/layout_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/size_35"
+            android:layout_marginRight="@dimen/size_15"
+            android:background="@drawable/splash_skip"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_4"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingLeft="@dimen/size_8"
+                android:text="跳过"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingLeft="@dimen/size_5"
+                android:paddingRight="@dimen/size_5"
+                android:text=" "
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+        </LinearLayout>
+    </FrameLayout>
+</layout>

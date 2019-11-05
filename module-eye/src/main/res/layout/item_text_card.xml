@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/size_15"
+    android:paddingTop="@dimen/size_15"
+    android:paddingBottom="@dimen/size_10"
+    android:text="猜你喜欢"
+    android:textColor="@color/text_3"
+    android:textSize="@dimen/size_24"
+    android:textStyle="bold"
+    tools:ignore="ResourceName">
+
+</TextView>

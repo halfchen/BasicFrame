@@ -1,0 +1,397 @@
+[
+    {
+        "type":"title",
+        "name":"央视"
+    },
+    {
+        "name": "CCTV1综合",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8"
+    },
+    {
+        "name": "CCTV3综艺",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8"
+    },
+    {
+        "name": "CCTV4中文国际",
+        "icon": "",
+        "live": "http://223.110.243.168/PLTV/3/224/3221225534/index.m3u8"
+    },
+    {
+        "name": "CCTV5+",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8"
+    },
+    {
+        "name": "CCTV6电影",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8"
+    },
+    {
+        "name": "CCTV7军事农业",
+        "icon": "",
+        "live": "http://183.207.249.6/PLTV/3/224/3221225546/index.m3u8"
+    },
+    {
+        "name": "CCTV8电视剧",
+        "icon": "",
+        "live": "http://223.110.243.170/PLTV/3/224/3221227204/index.m3u8"
+    },
+    {
+        "name": "CCTV10科教",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225550/index.m3u8"
+    },
+    {
+        "name": "CCTV11戏曲",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225552/index.m3u8"
+    },
+    {
+        "name": "CCTV12社会与法",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225556/index.m3u8"
+    },
+    {
+        "name": "CCTV14少儿",
+        "icon": "",
+        "live": "http://223.110.241.204:6610/gitv/live1/G_CCTV-14/G_CCTV-14/?IASHttpSessionId=OTT1746120180512074345007629"
+    },
+    {
+        "name": "CCTV15音乐",
+        "icon": "",
+        "live": "http://183.207.249.7/PLTV/3/224/3221225568/index.m3u8"
+    },
+    {
+        "type":"title",
+        "name":"卫视"
+    },
+    {
+        "name": "东方卫视",
+        "icon": "",
+        "live": "http://223.110.243.138/ott.js.chinamobile.com/PLTV/3/224/3221227208/index.m3u8"
+    },
+    {
+        "name": "湖南卫视",
+        "icon": "",
+        "live": "rtmp://58.200.131.2:1935/livetv/hunantv"
+    },
+    {
+        "name": "浙江卫视",
+        "icon": "",
+        "live": "http://183.207.249.6/PLTV/3/224/3221225544/index.m3u8"
+    },
+    {
+        "name": "湖北卫视",
+        "icon": "",
+        "live": "http://223.110.243.171/PLTV/3/224/3221227211/index.m3u8"
+    },
+    {
+        "name": "天津卫视",
+        "icon": "",
+        "live": "http://223.110.243.170/PLTV/3/224/3221227212/index.m3u8"
+    },
+    {
+        "name": "山东卫视",
+        "icon": "",
+        "live": "http://223.110.243.171/PLTV/3/224/3221227258/index.m3u8"
+    },
+    {
+        "name": "黑龙江卫视",
+        "icon": "",
+        "live": "http://223.110.243.169/PLTV/3/224/3221227252/index.m3u8"
+    },
+    {
+        "name": "凤凰卫视中文",
+        "icon": "",
+        "live": "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8"
+    },
+    {
+        "name": "凤凰卫视资讯",
+        "icon": "",
+        "live": "http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8"
+    },
+    {
+        "type":"title",
+        "name":"地方"
+    },
+    {
+        "name": "北京青年",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/btv8.m3u8"
+    },
+    {
+        "name": "凤凰香港",
+        "icon": "",
+        "live": "http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8"
+    },
+    {
+        "name": "香港HKS",
+        "icon": "",
+        "live": "rtmp://live.hkstv.hk.lxdns.com/live/hks1"
+    },
+    {
+        "name": "奇妙电视",
+        "icon": "",
+        "live": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8"
+    },
+    {
+        "name": "TVB财经资讯台",
+        "icon": "",
+        "live": "http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/playlist.m3u8"
+    },
+    {
+        "name": "香港财经",
+        "icon": "",
+        "live": "rtmp://202.69.69.180:443/webcast/bshdlive-pc"
+    },
+    {
+        "name": "澳门卫视",
+        "icon": "",
+        "live": "http://stream.mastvnet.com/MSTV/SD/live.m3u8"
+    },
+    {
+        "name": "澳亚卫视",
+        "icon": "",
+        "live": "http://stream.mastvnet.com/MASTV/sd/live.m3u8"
+    },
+    {
+        "name": "环球电视台",
+        "icon": "",
+        "live": "http://live-cdn.xzxwhcb.com/hls/r86am856.m3u8"
+    },
+    {
+        "name": "北京纪实",
+        "icon": "",
+        "live": "http://ivi.bupt.edu.cn/hls/btv11hd.m3u8"
+    },
+    {
+        "name": "人文地理记录",
+        "icon": "",
+        "live": "http://117.158.206.60:9080/live/renwendili.m3u8"
+    },
+    {
+        "name": "江苏体育休闲频道",
+        "icon": "",
+        "live": "http://183.207.249.12/PLTV/4/224/3221225935/index.m3u8"
+    },
+    {
+        "name": "皇马足球台",
+        "icon": "",
+        "live": "http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8"
+    },
+    {
+        "name": "峨眉电影",
+        "icon": "",
+        "live": "http://scgctvshow.sctv.com/hdlive/emei/3.m3u8"
+    },
+    {
+        "name": "河北影视",
+        "icon": "",
+        "live": "http://weblive.hebtv.com/live/hbys_bq/index.m3u8"
+    },
+    {
+        "name": "四川5影视文艺",
+        "icon": "",
+        "live": "http://scgctvshow.sctv.com/hdlive/sctv5/3.m3u8"
+    },
+    {
+        "name": "韩国KTV",
+        "icon": "",
+        "live": "http://218.38.152.69:1935/da_live/72136989/mp4:ch001/playlist.m3u8"
+    },
+    {
+        "type":"title",
+        "name": "NewTv"
+    },
+    {
+        "name": "动画王国",
+        "icon": "",
+        "live": "http://183.207.249.15/PLTV/3/224/3221225555/index.m3u8"
+    },
+    {
+        "name": "动作电影",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225529/index.m3u8"
+    },
+    {
+        "name": "爱情喜剧",
+        "icon": "",
+        "live": "http://183.207.249.12/PLTV/3/224/3221225525/index.m3u8"
+    },
+    {
+        "name": "精品电影",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225567/index.m3u8"
+    },
+    {
+        "name": "古装剧场",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225527/index.m3u8"
+    },
+    {
+        "name": "明星大片",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225535/index.m3u8"
+    },
+    {
+        "name": "海外剧场",
+        "icon": "",
+        "live": "http://183.207.249.16/PLTV/3/224/3221225547/index.m3u8"
+    },
+    {
+        "name": "军事评论",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225533/index.m3u8"
+    },
+    {
+        "name": "家庭剧场",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225549/index.m3u8"
+    },
+    {
+        "name": "精品大剧",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225569/index.m3u8"
+    },
+    {
+        "name": "中国功夫",
+        "icon": "",
+        "live": "http://223.110.245.135/PLTV/3/224/3221226935/index.m3u8"
+    },
+    {
+        "name": "金牌综艺",
+        "icon": "",
+        "live": "http://183.207.249.16/PLTV/3/224/3221225559/index.m3u8"
+    },
+    {
+        "name": "惊悚悬疑",
+        "icon": "",
+        "live": "http://183.207.249.7/PLTV/3/224/3221225561/index.m3u8"
+    },
+    {
+        "name": "军旅剧场",
+        "icon": "",
+        "live": "http://183.207.249.15/PLTV/3/224/3221225531/index.m3u8"
+    },
+    {
+        "name": "精品记录",
+        "icon": "",
+        "live": "http://183.207.249.14/PLTV/3/224/3221225557/index.m3u8"
+    },
+    {
+        "name": "农业致富",
+        "icon": "",
+        "live": "http://183.207.249.15/PLTV/3/224/3221225537/index.m3u8"
+    },
+    {
+        "name": "潮妈辣婆",
+        "icon": "",
+        "live": "http://223.110.245.170/PLTV/3/224/3221226983/index.m3u8"
+    },
+    {
+        "type":"title",
+        "name": "CIBN"
+    },
+    {
+        "name": "第一赛场",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1dysc-512k.m3u8"
+    },
+    {
+        "name": "军事",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1gzjc-512k.m3u8"
+    },
+    {
+        "name": "今古珍藏",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1zypd-512k.m3u8"
+    },
+    {
+        "name": "禅文化",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1cwhpd-512k.m3u8"
+    },
+    {
+        "name": "流金岁月",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1scpd-512k.m3u8"
+    },
+    {
+        "name": "经典剧场",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1jdjc-512k.m3u8"
+    },
+    {
+        "name": "骄阳剧场",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1jyjc-512k.m3u8"
+    },
+    {
+        "name": "热播剧场",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1rbjc-512k.m3u8"
+    },
+    {
+        "name": "财经",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1sfyx-512k.m3u8"
+    },
+    {
+        "name": "动漫",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1dmpd-512k.m3u8"
+    },
+    {
+        "name": "电影",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1dypd-512k.m3u8"
+    },
+    {
+        "name": "动作影院",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1dzyy-512k.m3u8"
+    },
+    {
+        "name": "情感影院",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1qgyy-512k.m3u8"
+    },
+    {
+        "name": "喜剧影院",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1xjyy-512k.m3u8"
+    },
+    {
+        "name": "精品影院",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1jpyy-512k.m3u8"
+    },
+    {
+        "name": "微电影",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1wdypd-512k.m3u8"
+    },
+    {
+        "name": "电影导视",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1dyds-512k.m3u8"
+    },
+    {
+        "name": "财经",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1cjpd-512k.m3u8"
+    },
+    {
+        "name": "旅游",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1lypd-512k.m3u8"
+    },
+    {
+        "name": "健康",
+        "icon": "",
+        "live": "http://live3.nty.tv189.com/tm-yg1jkpd-512k.m3u8"
+    }
+]
